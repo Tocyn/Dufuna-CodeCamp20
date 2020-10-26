@@ -1,33 +1,92 @@
+/* header */
+.nav-section
+{
+  width: 95%;
+  margin: auto;
+  overflow: hidden;
+}
+
+ul 
+{
+  padding: 0;
+  margin: 0;
+}
+
+header 
+{
+  background: #00f798a8;
+  color: blueviolet;
+  padding-top: 10px;
+  min-height: 5px
+}
+
+header a 
+{
+  color: blueviolet;
+  text-decoration: none;
+  font-size: 12px;
+}
+
+header li 
+{
+  display: inline;
+  padding:0 30px;;
+}
+
+header #nav-logo 
+{
+  float: left;
+  margin: 15px 15px;
+}
+
+header #nav-logo h2,
+header #nav-logo p 
+{
+   margin:0;
+   padding:0;
+   color:blueviolet;
+}
+
+header nav 
+{
+  float: right;
+  margin-top: 15px;
+}
+
 /*body*/
-.form {
+.form 
+{
   border: solid 1px blueviolet;
+  margin: 0;
+  font-family:Arial, Helvetica, sans-serif;
+  line-height:1.5;
+  height:100%;  
+  font-size: 25px;
+  border-radius: 23px;
   margin-left: 250px;
   float: left;
   width: 25%;
-  padding: 2% 5%;
-  border-radius: 23px;
-  font-size: 25px;
-  line-height: 1.2em;
+  padding: 2% 5%
+}
+.act 
+{
+  width:40%;
+  margin:20px 0 20px 45px; 
+  padding-top:80px
 }
 
-.act h1 {
-  width: 365px;
-  height: 122px;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 30px;
-  font-weight: bold;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: 1.22;
-  letter-spacing: normal;
-  text-align: left;
+.act, h4
+{
   color:blueviolet;
-  padding: px 2px 3px 208px ;
+  font: 2em sans-serif;
+  padding:0;
+  margin:0
 }
 
-.act h3{
+.act h3
+{
   width: 528px;
-  height: 151px;
+  height: 100px;
   font-family: Montserrat;
   font-size: 30px;
   font-weight: normal;
@@ -35,12 +94,11 @@
   font-style: normal;
   line-height: 1.23;
   letter-spacing: normal;
-  text-align: left;
-  color: #5f5f5f;
-  padding: px 115px 3px 125px ;
+  color: #5f5f5f
 }
 
-.act h4{
+.act h4
+{
   width: 482px;
   height: 74px;
   font-family: Montserrat;
@@ -52,38 +110,43 @@
   letter-spacing: normal;
   text-align: left;
   color: #5f5f5f;
-  padding: px 115px 3px 125px ;
+  padding: px 11px 1px 1px
 }
 
-.log-in {
+.log-in 
+{
   font-weight: bold;
-  color: blueviolet;
+  color: blueviolet
 }
 
-.con {
+.con 
+{
   overflow: hidden;
   width: 95%;
   padding: 30px 0;
-  margin: auto;
+  margin: auto
 }
 
-.act {
+.act 
+{
   float: left;
   width: 43%;
   text-align: left;
-  margin:0 20px;
+  margin:0 20px
 }
 
 .for-input input[type=text],
 .for-input input[type=email],
-.for-input input[type=password] {
-   width: 521px;
-   border: 1px solid black;
+.for-input input[type=password] 
+{
+   width: 100%;
+   border: 1px solid #5f5f5f;
    border-radius: 10px;
    height: 50px;
 }
 
-input[type=submit] {
+input[type=submit] 
+{
   background-color:#00f798a8;
   border-radius: 5px;
   color: blueviolet;
@@ -93,140 +156,54 @@ input[type=submit] {
   font-size: 12px;
 }
 
-/* header */
-.nav-section {
-  width: 95%;
-  margin: auto;
-  overflow: hidden;
+/*footer*/
+.footer
+{
+  background-color:#00f798a8;
 }
-
-ul {
-  padding: 0;
-  margin: 0;
+.footer-left,
+.footer-center,
+.footer-right
+{
+ float:left;
+ width:33.33%;
+ color:blueviolet;
 }
-
-header {
-  background: #00f798a8;
-  color: blueviolet;
-  padding-top: 10px;
-  min-height: 5px
-}
-
-header a {
-  color: blueviolet;
-  text-decoration: none;
-  font-size: 12px;
-}
-
-header li {
-  display: inline;
-  padding:0 30px;;
-}
-
-header #nav-logo {
-  float: left;
-  margin: 15px 15px;
-}
-header #nav-logo h2,
-header #nav-logo p {
-   margin:0;
-   padding:0;
+.footer p
+{
+  margin:0 auto;
+  display:block;
+   margin-top:20px;
    color:blueviolet;
 }
-
-header nav {
-  float: right;
-  margin-top: 15px;
+.footer-left ul
+{
+  list-style:none;
+}
+.footer a
+{
+  text-decoration:none;
+  color:blueviolet;
+  margin:0;
+  padding:0;
+}
+.footer-center input
+{
+  margin-top:2px;
+  border:1px solid blueviolet;
+  height:30px;
+}
+::placeholder
+{
+  color:black;
+  font-size:15.2px;
+}
+.footer-right img
+{
+  width:35px;
+  height:30px;
+}
+@media screen and (min-width : 360px){
+  .body{text-align: center}
 }
 
-/*footer*/
-footer a {
-  color: blueviolet;
-  text-decoration: none;
-}
-
-footer  {
-  background-color: #00f798a8;
-  overflow: hidden;
-  padding: 15px 0 0 20px;
- 
-}
-
-.footer {
-  float: left;
-  width: 33.33%;
-  font-weight: lighter;
-}
-
-.footer li {
-  padding:5px;
-  font-weight: lighter;
-  list-style-type: none;
-}
-
-.footer p {
-  color: blueviolet;
-  font-weight: lighter;
-  padding-left: 50px;
-  display: block;
-}
-.logo li {
-  list-style-type: none;
-  padding: 2px;
-  border-radius: 10px;
-  display: inline-grid;
-  margin: 0 10px;
-}
-
-.info {
-  position: absolute;
-  left: 300px;
- 
-}
-
-footer nav {
-  overflow: hidden;
-}
-
-img {
-  height: 25px;
-  text-decoration: none;
-}
-
-.kt {
-  color: blueviolet;
-  font-weight: lighter;
-}
-
-@media screen and (max-width: 900px) {
-  header nav,
-  header .nav-section nav li,
-  header #nav-logo {
-      float: none;
-      text-align: center;
-      padding: 0 3%;
-
-  }
-  .act,
-  .form {
-      float:none;
-      width: 85%;
-      margin: auto;
-      padding-bottom: 15px;
-  }
-  .act {
-      text-align: center;
-  }
-
-}
-@media screen and (max-width: 640px){
-  .act, .form {
-      float:none;
-  }
-
-}
-@media screen and (max-width: 360px ){
-  .act, .form {
-     float:none;
-  }
-}
