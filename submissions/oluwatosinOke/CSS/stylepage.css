@@ -66,21 +66,23 @@ header nav
   margin-left: 250px;
   float: left;
   width: 25%;
-  padding: 2% 5%
+  padding: 2% 5%;
 }
 .act 
 {
   width:40%;
-  margin:20px 0 20px 45px; 
-  padding-top:80px
+  margin:20px 0px 20px 20px; 
+  padding-top:80px;
+  float: left;
+  padding-left:7em;
 }
 
 .act, h4
 {
   color:blueviolet;
   font: 2em sans-serif;
-  padding:0;
-  margin:0
+  margin:0;
+  padding: o;
 }
 
 .act h3
