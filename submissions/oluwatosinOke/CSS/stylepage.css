@@ -54,28 +54,25 @@ header nav
 }
 
 /*body*/
-.form 
+.con 
 {
-  border: solid 1px blueviolet;
-  margin: 0;
-  font-family:Arial, Helvetica, sans-serif;
-  line-height:1.5;
-  height:100%;  
-  font-size: 25px;
-  border-radius: 23px;
-  margin-left: 250px;
-  float: left;
-  width: 25%;
-  padding: 2% 5%;
+  overflow: hidden;
+  width: 100%;
+  padding: 30px 0;
 }
+
 .act 
 {
-  width:40%;
   margin:20px 0px 20px 20px; 
   padding-top:80px;
   float: left;
   padding-left:7em;
+  float: left;
+  width: 35%;
+  text-align: left;
+  
 }
+
 
 .act, h4
 {
@@ -89,7 +86,7 @@ header nav
 {
   width: 528px;
   height: 100px;
-  font-family: Montserrat;
+  font-family: Arial, Helvetica, sans-serif;
   font-size: 30px;
   font-weight: normal;
   font-stretch: normal;
@@ -103,7 +100,7 @@ header nav
 {
   width: 482px;
   height: 74px;
-  font-family: Montserrat;
+  font-family: Arial, Helvetica, sans-serif;
   font-size: 30px;
   font-weight: normal;
   font-stretch: normal;
@@ -115,26 +112,25 @@ header nav
   padding: px 11px 1px 1px
 }
 
+.form 
+{
+  border: solid 1px blueviolet;
+  font-family:Arial, Helvetica, sans-serif;
+  line-height:1.7;
+  height:100%;  
+  font-size: 25px;
+  border-radius: 23px;
+  margin-left: 250px;
+  float: left;
+  width: 35%;
+  padding: 2% 2%;
+}
+
+
 .log-in 
 {
   font-weight: bold;
   color: blueviolet
-}
-
-.con 
-{
-  overflow: hidden;
-  width: 95%;
-  padding: 30px 0;
-  margin: auto
-}
-
-.act 
-{
-  float: left;
-  width: 43%;
-  text-align: left;
-  margin:0 20px
 }
 
 .for-input input[type=text],
@@ -205,7 +201,15 @@ input[type=submit]
   width:35px;
   height:30px;
 }
-@media screen and (min-width : 360px){
-  .body{text-align: left}
+@media screen and (min-width: 600px) {
+  h4 {
+    font-size: 200px;  
+  }
+  .form {
+    width:fit-content;
+    font-size: 32px;
+    padding-right: em;
+    margin-left: 200px;
+  }
+  
 }
-
