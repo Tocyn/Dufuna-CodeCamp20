@@ -243,9 +243,12 @@ input[type=submit]
     .act  
     {
         display:block;
-        width: 100%;
+        width: 90%;
         margin: 1px;
-        padding: 1px;
+        padding-top: 1px;
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-bottom: 1px;
         font: bolder 12px "cookie"; 
     }
 
@@ -258,6 +261,8 @@ input[type=submit]
     .act h3, .act h4
     {
         line-height: 1.2;
+        margin-top: 1px;
+        margin-bottom: 3px;
     }
 
     .form 
@@ -265,11 +270,11 @@ input[type=submit]
         font: normal 2vh  "cookie"; 
         margin-bottom: 1px;
         margin-top: 1px;
-        margin-left: 1px;
-        width:95%;
+        margin-left: 15px;
+        width:75%;
         height: fit-content;
-        padding: 2px;
-        border-radius: 1px;
+        padding-left: 25px;
+        border-radius: 15px;
     }
     .for-input input[type=text],
     .for-input input[type=email],
@@ -277,7 +282,8 @@ input[type=submit]
     {
         border: 1px solid #5f5f5f;
         height: 15px;
-        width: 320px;
+        width: 89%;
+        padding: 1px;
     }
 
     input[type=submit] 
