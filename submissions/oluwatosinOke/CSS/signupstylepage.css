@@ -299,70 +299,70 @@ input[type=submit]
 
     .footer
     {
-        font: normal 2vh  "cookie"; 
-        background-color:#00f798a8;
-        color:blueviolet;
-        padding: 1px 1px;
-        margin-top: 1px;
-        height: fit-content;
+      font: normal 2vh  "cookie"; 
+      background-color:#00f798a8;
+      color:blueviolet;
+      padding: 1px 1px;
+      margin-top: 1px;
+      height: fit-content;
     }
     .footer p
     {
-        text-align: center;
-        font: normal 2vh  "cookie"; 
+      text-align: center;
+      font: normal 2vh  "cookie"; 
     }
     .footer-left ul
     {
-        list-style:none;
-        margin: 1px;
-        padding: 1px;
+      list-style:none;
+      margin: 1px;
+      padding: 1px;
     }
 
     .footer-left,
     .footer-center,
     .footer-right
     {
-        display: block;
-        font: normal 2vh  "cookie"; 
-        width: 100%;
+      display: block;
+      font: normal 2vh  "cookie"; 
+      width: 100%;
     } 
 
     .footer-left a,
     .footer-right h3,
     .footer-center h3,
     .footer p{
-        color:  blueviolet;
+      color:  blueviolet;
 	    font: normal 2vh  "cookie"; 
-        margin: 1px;
-        padding: 1px;
+      margin: 1px;
+      padding: 1px;
 	    text-decoration: none;
     }
 
     .footer p
     {
-        text-align: left;
+      text-align: left;
     }
     .footer-center input[type=email]
     {
-        width: fit-content;
-        height: 15px;
-        padding: 1px;
+      width: fit-content;
+      height: 15px;
+      padding: 1px;
     }
 
     .footer-center input[type=button] {
-        width: fit-content;
-        height: 17px;
-        font: normal 7px  "cookie"; 
-        color:black;
+      width: fit-content;
+      height: 17px;
+      font: normal 7px  "cookie"; 
+      color:black;
     }
     ::placeholder
     {
-        font: normal 2vh  "cookie"; 
+      font: normal 2vh  "cookie"; 
     }
 
     .footer-right img
     {
-        width:32px;
-        height:28px;
+      width:32px;
+      height:28px;
     }
 }
