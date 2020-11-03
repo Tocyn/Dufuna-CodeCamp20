@@ -322,9 +322,9 @@ input[type=submit]
     .footer-center,
     .footer-right
     {
-      display: block;
-      font: normal 2vh  "cookie"; 
-      width: 100%;
+    display: block;
+    font: normal 2vh  "cookie"; 
+    width: 100%;
     } 
 
     .footer-left a,
